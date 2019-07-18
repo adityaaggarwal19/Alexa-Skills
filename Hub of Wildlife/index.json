@@ -1,0 +1,673 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hub of wildlife",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "about wildlife guru",
+                        "help wildlife guru",
+                        "help ",
+                        "tell me about wildlife guru"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhatIsOption",
+                    "slots": [
+                        {
+                            "name": "opt",
+                            "type": "LIST_OF_OPTIONS"
+                        }
+                    ],
+                    "samples": [
+                        "choice {opt}",
+                        "my choice is {opt}",
+                        "i would say {opt}"
+                    ]
+                },
+                {
+                    "name": "ProductName",
+                    "slots": [
+                        {
+                            "name": "typeof",
+                            "type": "LIST_OF_PRODUCTS"
+                        }
+                    ],
+                    "samples": [
+                        "tell me about product {typeof}",
+                        "my product is {typeof}",
+                        "product is {typeof}",
+                        "it is {typeof}",
+                        "name of my product is {typeof}"
+                    ]
+                },
+                {
+                    "name": "SoundName",
+                    "slots": [
+                        {
+                            "name": "sound",
+                            "type": "AMAZON.Animal"
+                        }
+                    ],
+                    "samples": [
+                        "voice of {sound}",
+                        "animal voice of {sound}",
+                        "play animal voice of {sound}"
+                    ]
+                },
+                {
+                    "name": "ParkName",
+                    "slots": [
+                        {
+                            "name": "citypark",
+                            "type": "cityp"
+                        }
+                    ],
+                    "samples": [
+                        "Tell me sanctuaries in {citypark}",
+                        "Wildlife sanctuaries in {citypark}",
+                        "Biodiversity parks in {citypark}"
+                    ]
+                },
+                {
+                    "name": "AnimalName",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "animal is {animal}",
+                        "Tell me about animal {animal}",
+                        "animal {animal}"
+                    ]
+                },
+                {
+                    "name": "GeneralProduct",
+                    "slots": [],
+                    "samples": [
+                        "general",
+                        "no specific product",
+                        "general product details",
+                        "general product"
+                    ]
+                },
+                {
+                    "name": "RuleIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell rules",
+                        "tell me rules",
+                        "what are the rules",
+                        "rules",
+                        "I require help",
+                        "help required",
+                        "help needed",
+                        "I want help",
+                        "help me please",
+                        "I need help in game"
+                    ]
+                },
+                {
+                    "name": "MovieName",
+                    "slots": [],
+                    "samples": [
+                        "give me movie suggestion",
+                        "give me a movie suggestion"
+                    ]
+                },
+                {
+                    "name": "NgoName",
+                    "slots": [
+                        {
+                            "name": "cityngo",
+                            "type": "cityy"
+                        }
+                    ],
+                    "samples": [
+                        "organisation in {cityngo}",
+                        "tell me ngo in {cityngo}",
+                        "Tell me ngos in {cityngo}",
+                        "NGOs in {cityngo}",
+                        "NGO in {cityngo}",
+                        "NGO located in {cityngo}"
+                    ]
+                },
+                {
+                    "name": "WildlifeFacts",
+                    "slots": [],
+                    "samples": [
+                        "wildlife fact",
+                        "tell me a fact",
+                        "fact about wildlife",
+                        "a wildlife fact",
+                        "give me a wildlife fact",
+                        "tell me a wildlife fact"
+                    ]
+                },
+                {
+                    "name": "QuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "Let's start",
+                        "Begin quiz",
+                        "Begin",
+                        "Play quiz",
+                        "Bring it on",
+                        "Start quiz"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "positive",
+                        "yep",
+                        "yup",
+                        "yeah",
+                        "ya",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "negative",
+                        "nah",
+                        "neh",
+                        "nope",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "NextQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is the next question",
+                        "okay next question",
+                        "Next question please",
+                        "Next question",
+                        "Next"
+                    ]
+                },
+                {
+                    "name": "RepeatQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "Repeat question",
+                        "Please repeat the question again",
+                        "Repeat the question again",
+                        "Repeat the question again please",
+                        "Repeat question again please",
+                        "Please repeat question",
+                        "Repeat question please",
+                        "I didn't catch that. Repeat the question please",
+                        "Can you repeat the question please",
+                        "Repeat the question please",
+                        "Can you please repeat the question",
+                        "I didn't get the question",
+                        "Repeat the question",
+                        "Please repeat the question"
+                    ]
+                },
+                {
+                    "name": "RepeatOptionsIntent",
+                    "slots": [],
+                    "samples": [
+                        "repeat options please",
+                        "repeat options",
+                        "I didn't get the options",
+                        "repeat options again",
+                        "can you repeat the options please"
+                    ]
+                },
+                {
+                    "name": "ReplayIntent",
+                    "slots": [],
+                    "samples": [
+                        "play again",
+                        "start over",
+                        "restart",
+                        "restart quiz",
+                        "replay"
+                    ]
+                },
+                {
+                    "name": "WhatsMyScoreIntent",
+                    "slots": [],
+                    "samples": [
+                        "i want to know my score",
+                        "what is my current score",
+                        "tell me my current score",
+                        "tell my score so far",
+                        "tell my score",
+                        "score",
+                        "what is the score",
+                        "tell me my score",
+                        "what is my score so far",
+                        "What is my score"
+                    ]
+                },
+                {
+                    "name": "TellMeMoreIntent",
+                    "slots": [],
+                    "samples": [
+                        "I want to know more",
+                        "Tell me more"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "option",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "My answer is option {option}",
+                        "My answer is {option} ",
+                        "I select option {option}",
+                        "I select {option}",
+                        "I choose option {option}",
+                        "I choose {option}",
+                        "option {option}",
+                        "{option}"
+                    ]
+                },
+                {
+                    "name": "ResumeIntent",
+                    "slots": [],
+                    "samples": [
+                        "choice menu",
+                        "home",
+                        "resume wildlife guru",
+                        "i would like to continue",
+                        "continue",
+                        "i would like to resume",
+                        "resume"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_PRODUCTS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "medicines",
+                                "synonyms": [
+                                    "medication",
+                                    "medicine"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "necklace",
+                                "synonyms": [
+                                    "neckpiece",
+                                    "jewellery"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "cityp",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "kerala"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "assam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "karnataka"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "meghalaya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "madhya pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jharkhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "odisha"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tripura"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gujarat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "west bengal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "andaman and nicobar islands"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "maharashtra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jammu and kashmir"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rajasthan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "uttar pradesh\t"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "uttarakhand"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "himachal pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tamil nadu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chhattisgarh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "haryana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "telangana"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "manipur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sikkim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "goa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arunachal pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mizoram"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nagaland"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "andhra pradesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bihar"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_OPTIONS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "five"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "four"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "three"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "two"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "one"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "animalslots",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "indian crested porcupine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lion taled macaque"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gray langur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gee's golden langur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hanuman langur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rhesus macaque"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "red panda"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "asian black bear"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sloth bear"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bengal fox"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "indian wild dog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "golden jackal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "indian wolf"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "striped hyena"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "snow leopard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "indian leopard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "asiatic lions"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "royal bengal tiger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chinkara"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nilgai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chital"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sambar deer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yak"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "indian wild ass"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "indian rhinoceros"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gaur"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "cityy",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "china"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "india"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nepal"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
