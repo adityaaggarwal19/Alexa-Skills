@@ -1,0 +1,43 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "social media",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SocialMediaFact",
+                    "slots": [],
+                    "samples": [
+                        "a social media fact",
+                        "a fact",
+                        "tell me a social fact",
+                        "what is social media fact",
+                        "give me a social media fact",
+                        "tell me a fact about social media",
+                        "tell me a fact "
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
