@@ -1,0 +1,47 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "plant facts",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlantFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is plant fact",
+                        "a fact",
+                        "a plant fact",
+                        "tell me a fact",
+                        "tell me a plant fact",
+                        "give me a fact",
+                        "give me a plant fact",
+                        "tell me trivia",
+                        "tell me a plant trivia",
+                        "give me trivia",
+                        "give me a plant trivia",
+                        "give me some information",
+                        "give me some plant information",
+                        "tell me something",
+                        "give me something"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
