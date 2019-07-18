@@ -1,0 +1,202 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "target twenty one",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "description of game",
+                        "about game",
+                        "help",
+                        "rules"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhatIsNumber",
+                    "slots": [
+                        {
+                            "name": "num",
+                            "type": "LIST_OF_NUMBERS"
+                        }
+                    ],
+                    "samples": [
+                        "Umm {num}",
+                        "i will say {num}",
+                        "{num} is my number",
+                        "number {num}",
+                        "number is {num}",
+                        "my number is {num}"
+                    ]
+                },
+                {
+                    "name": "BeginIntent",
+                    "slots": [],
+                    "samples": [
+                        "ok let's play",
+                        "let's start",
+                        "let's begin",
+                        "start game"
+                    ]
+                },
+                {
+                    "name": "RepeatIntent",
+                    "slots": [],
+                    "samples": [
+                        "sorry please repeat the number",
+                        "may you please repeat",
+                        "please repeat the number",
+                        "please repeat",
+                        "repeat please",
+                        "can you repeat the number",
+                        "repeat number",
+                        "repeat the number"
+                    ]
+                },
+                {
+                    "name": "ReplayIntent",
+                    "slots": [],
+                    "samples": [
+                        "play cross the twenty again",
+                        "play game again",
+                        "restart the game",
+                        "do again",
+                        "start from starting",
+                        "reset game",
+                        "play again",
+                        "restart game",
+                        "replay game"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_NUMBERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "twenty one"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "twenty"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nineteen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eighteen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seventeen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sixteen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fifteen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fourteen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "thirteen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "twelve"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eleven"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ten"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eight"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seven"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "six"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "five"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "four"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "three"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "two"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "one"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
