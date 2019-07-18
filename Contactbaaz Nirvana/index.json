@@ -1,0 +1,285 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "pranav birthday",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "quit quiz",
+                        "cancel game",
+                        "quit game",
+                        "quit",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "tell rules",
+                        "tell me rules",
+                        "what are the rules",
+                        "rules",
+                        "I require help",
+                        "help required",
+                        "help needed",
+                        "I want help",
+                        "help me please",
+                        "I need help",
+                        "help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "exit game",
+                        "exit",
+                        "goodbye",
+                        "bye",
+                        "bye bye",
+                        "stop it",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "QuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "Let's start",
+                        "Begin quiz",
+                        "Begin",
+                        "Play quiz",
+                        "Play I Know Technology",
+                        "Bring it on",
+                        "Start quiz"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "positive",
+                        "yep",
+                        "yup",
+                        "yeah",
+                        "ya",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "negative",
+                        "nah",
+                        "neh",
+                        "nope",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "NextQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is the next question",
+                        "okay next question",
+                        "Next question please",
+                        "Next question",
+                        "Next"
+                    ]
+                },
+                {
+                    "name": "RepeatQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "Repeat question",
+                        "Please repeat the question again",
+                        "Repeat the question again",
+                        "Repeat the question again please",
+                        "Repeat question again please",
+                        "Please repeat question",
+                        "Repeat question please",
+                        "I didn't catch that. Repeat the question please",
+                        "Can you repeat the question please",
+                        "Repeat the question please",
+                        "Can you please repeat the question",
+                        "I didn't get the question",
+                        "Repeat the question",
+                        "Please repeat the question"
+                    ]
+                },
+                {
+                    "name": "ReplayIntent",
+                    "slots": [],
+                    "samples": [
+                        "replay game",
+                        "start again",
+                        "replay quiz",
+                        "play again",
+                        "start over",
+                        "restart",
+                        "restart quiz",
+                        "replay"
+                    ]
+                },
+                {
+                    "name": "WhatsMyScoreIntent",
+                    "slots": [],
+                    "samples": [
+                        "i want to know my score",
+                        "what is my current score",
+                        "tell me my current score",
+                        "tell my score so far",
+                        "tell my score",
+                        "score",
+                        "what is the score",
+                        "tell me my score",
+                        "what is my score so far",
+                        "What is my score"
+                    ]
+                },
+                {
+                    "name": "TellMeExampleIntent",
+                    "slots": [],
+                    "samples": [
+                        "counter",
+                        "have a wait",
+                        "please wait",
+                        "wait quiz",
+                        "wait",
+                        "tell example",
+                        "give example",
+                        "give me an example",
+                        "example",
+                        "tell me example",
+                        "I want to know more",
+                        "Tell me more"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "LIST_OF_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "may be {answer}",
+                        "My answer is {answer} ",
+                        "I think {answer}",
+                        "I say {answer}",
+                        "is it {answer}",
+                        "I guess {answer}",
+                        "answer {answer}",
+                        "{answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GiveMeHintIntent",
+                    "slots": [],
+                    "samples": [
+                        "any type of hint",
+                        "hint",
+                        "hint please",
+                        "give me hint",
+                        "any hint"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_ANSWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Aditya",
+                                "synonyms": [
+                                    "Adi"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Saurabh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Shrishti"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Abhishek"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tanya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sonam"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sonali",
+                                "synonyms": [
+                                    "Sona"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Navya"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Nitin",
+                                "synonyms": [
+                                    "Knit in"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hemant",
+                                "synonyms": [
+                                    "Hemu"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tanisha",
+                                "synonyms": [
+                                    "Tanu",
+                                    "Tani"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ridhi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pradeep"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
