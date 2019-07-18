@@ -1,0 +1,42 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "navratri gyan",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NavratriMazaa",
+                    "slots": [],
+                    "samples": [
+                        "about navratri",
+                        "navratri",
+                        "tell me a fact about navratri",
+                        "tell me a fact",
+                        "tell me about navratri",
+                        "what is navratri"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
