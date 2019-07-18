@@ -1,0 +1,43 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "python guide",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PythonGuide",
+                    "slots": [],
+                    "samples": [
+                        "python fact",
+                        "tell me python fact",
+                        "tell me a python fact",
+                        "give me a fact about python fact",
+                        "tell me a fact about python",
+                        "fact about python",
+                        "tell me a fact"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
