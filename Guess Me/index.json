@@ -1,0 +1,398 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "guess phrases",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "quit quiz",
+                        "cancel game",
+                        "quit game",
+                        "quit",
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "tell rules",
+                        "tell me rules",
+                        "what are the rules",
+                        "rules",
+                        "I require help",
+                        "help required",
+                        "help needed",
+                        "I want help",
+                        "help me please",
+                        "I need help",
+                        "help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "exit game",
+                        "exit",
+                        "goodbye",
+                        "bye",
+                        "bye bye",
+                        "stop it",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "QuizIntent",
+                    "slots": [],
+                    "samples": [
+                        "Let's start",
+                        "Begin quiz",
+                        "Begin",
+                        "Play quiz",
+                        "Play I Know Technology",
+                        "Bring it on",
+                        "Start quiz"
+                    ]
+                },
+                {
+                    "name": "YesIntent",
+                    "slots": [],
+                    "samples": [
+                        "positive",
+                        "yep",
+                        "yup",
+                        "yeah",
+                        "ya",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "negative",
+                        "nah",
+                        "neh",
+                        "nope",
+                        "no"
+                    ]
+                },
+                {
+                    "name": "NextQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "what is the next question",
+                        "okay next question",
+                        "Next question please",
+                        "Next question",
+                        "Next"
+                    ]
+                },
+                {
+                    "name": "RepeatQuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "Repeat question",
+                        "Please repeat the question again",
+                        "Repeat the question again",
+                        "Repeat the question again please",
+                        "Repeat question again please",
+                        "Please repeat question",
+                        "Repeat question please",
+                        "I didn't catch that. Repeat the question please",
+                        "Can you repeat the question please",
+                        "Repeat the question please",
+                        "Can you please repeat the question",
+                        "I didn't get the question",
+                        "Repeat the question",
+                        "Please repeat the question"
+                    ]
+                },
+                {
+                    "name": "ReplayIntent",
+                    "slots": [],
+                    "samples": [
+                        "replay game",
+                        "start again",
+                        "replay quiz",
+                        "play again",
+                        "start over",
+                        "restart",
+                        "restart quiz",
+                        "replay"
+                    ]
+                },
+                {
+                    "name": "WhatsMyScoreIntent",
+                    "slots": [],
+                    "samples": [
+                        "i want to know my score",
+                        "what is my current score",
+                        "tell me my current score",
+                        "tell my score so far",
+                        "tell my score",
+                        "score",
+                        "what is the score",
+                        "tell me my score",
+                        "what is my score so far",
+                        "What is my score"
+                    ]
+                },
+                {
+                    "name": "TellMeExampleIntent",
+                    "slots": [],
+                    "samples": [
+                        "give example",
+                        "tell example",
+                        "example",
+                        "tell me example",
+                        "I want to know more",
+                        "Tell me more"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "LIST_OF_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "may be {answer}",
+                        "My answer is {answer} ",
+                        "I think {answer}",
+                        "I say {answer}",
+                        "is it {answer}",
+                        "I guess {answer}",
+                        "answer {answer}",
+                        "{answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GiveMeHintIntent",
+                    "slots": [],
+                    "samples": [
+                        "any type of hint",
+                        "hint",
+                        "hint please",
+                        "give me hint",
+                        "any hint"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_ANSWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "misogamist"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "misogynist"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "illiterate"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "egotist"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parasite"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "answerable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fastidious"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arbitrator"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "venial"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "inimitable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bourgeois"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "antidote"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "antiseptic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "germicide"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "irritable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fanatic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "callous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "irreparable"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "catalogue"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "biography"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "autobiography"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "amphibian"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "illegible"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "herbivorous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plutocracy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "democracy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bureaucracy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aristocracy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "oligarchy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "autocracy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Monarchy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Draw"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Carnivorous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Soporific"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Epidemic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Cosmopolite"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Matinee"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anonymous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Posthumous"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Centenarian"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
