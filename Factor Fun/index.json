@@ -1,0 +1,37 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "factors fun",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "whatisnumbergame",
+                    "slots": [],
+                    "samples": [
+                        "tell me number",
+                        "math craze",
+                        "factor learn",
+                        "tell me number game",
+                        "tell me factor"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
